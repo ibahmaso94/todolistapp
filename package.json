@@ -4,7 +4,9 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "clear-vite-cache": "rm -rf node_modules/.vite"
+        "clear-vite-cache": "rm -rf node_modules/.vite",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
@@ -13,9 +15,11 @@
         "vite": "^5.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
+       
     },
     "dependencies": {
         "react": "^18.3.1",
         "react-dom": "^18.3.1"
+       
     }
 }
