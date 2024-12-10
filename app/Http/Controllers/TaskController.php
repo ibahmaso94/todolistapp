@@ -42,7 +42,7 @@ class TaskController extends Controller
 
     public function destroy(Task $task): JsonResponse
     {
-        dump('test');
+        
         $this->authorize('delete', $task);
 
         $task->delete();
