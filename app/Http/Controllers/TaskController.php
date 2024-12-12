@@ -28,6 +28,7 @@ class TaskController extends Controller
 
     public function update(Request $request, Task $task): JsonResponse
     {
+        dump('testing');
         $this->authorize('update', $task);
 
         $validated = $request->validate([
